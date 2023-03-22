@@ -3,23 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfólio Web</title>
+    <style>
+
+      #mypic {
+        border-radius: 10%;
+        width: 100px;
+      } 
+
+      body {
+        background-color: rgb(203, 205, 185);
+      }
+
+      h3 {
+        color: rgb(60, 60, 57);
+      }
+
+      h2 {
+        color: rgb(60, 60, 57);
+      }
+
+      h1 {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(23, 23, 22);
+        font-size: 50px;
+
+      }
+
+      .sobre {
+        font-family: monospace;       
+      }
+
+      .top-skill-list {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+        font-weight: bold;
+
+      }
+
+      .skill-list {
+        font-family:'Courier New', Courier, monospace
+        font-weight: bold;
+      }
+
+      .green-back {
+        background-color: rgb(114, 121, 90);
+        border-radius: 4px;
+        padding: 15px 15px;
+      }
+
+      .infos {
+        color: rgb(60, 60, 57);
+      }
+
+    </style>
 </head>
 <body>
     <h1>Rodrigo dos Santos Beckmann</h1>
-    <img src="myself.jpeg" width="100 px" alt="Homem posando para foto sentado com uma camisa do Grogu" id="myphoto">+
-    <p>Residindo em Conceição do Jacuipe - BA, atualmente cursando desenvolvimento web na Trybe após trabalhar por mais de 10 anos na área administrativa
-        de uma indústria de pŕe moldados de concreto, deixei tudo para trás para seguir uma aspiração que tenho.
+
+    <img src="myself.jpeg" alt="Homem posando para foto sentado com uma camisa do Grogu" id="mypic">
+
+    <h3>Informações</h3>
+    <ul class="infos">
+        <li>Nacionalidade: Brasileiro</li>
+        <li>Cidade/UF: Conceição do Jacuipe - BA</li>
+        <li>Tel: (75) 98186-2115</li>
+        <li>Linkedin: <a href="https://www.linkedin.com/in/rodrigobeckmann/" target="_blank">https://www.linkedin.com/in/rodrigobeckmann</a></li>
+    </ul>
+
+    <p class="sobre green-back">Apaixonado por lógica desde sempre e desenvolvedor por essência, estou sempre em busca de fazer o melhor 
+        que posso para atingir o melhor resultado ao meu alcance.
     </p>
 
 
-    <h2>Lista de habilidades</h2>
-    <ul>
-      <li><b>Inglês avançado</b></li>
-      <li><em>Facilidade de aprendizado</em></li>
-      <li><em>Facilidade em trabalhar sob pressão</em></li>
+    <h2>Habilidades de maior domínio</h2>
+    <ul class="top-skill-list green-back">
+        <li>Inglês avançado</li>
+        <li>Facilidade de aprendizado</li>
+        <li>Trabalho sob pressão</li>
+        <li>Pensamento lógico</li>
+
+    </ul>
+
+    <h2>Outras habilidades relevantes</h2>
+    <ul class="skill-list green-back">
+        <li>Pacote Office avançado</li>
+        <li>Trabalho em equipe</li>
+        <li>Criatividade</li>
+
     </ul>
    
-    <a href="#myphoto">Minha foto</a>
+    <a href="#mypic">Minha foto</a>
     <br>
     <a href="https://developerslife.tech/pt/" target="_blank">Blog "the developer's life", tirinhas engraçadas que retraram o dia a dia de um desenvolvedor</a>
 
