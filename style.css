@@ -1,0 +1,70 @@
+
+#mypic {
+    border-radius: 10%;
+    width: 100px;
+  } 
+
+  body {
+    background-color: rgb(203, 205, 185);
+  }
+
+  h3 {
+    color: rgb(60, 60, 57);
+  }
+
+  h2 {
+    color: rgb(60, 60, 57);
+  }
+
+  h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(23, 23, 22);
+    font-size: 50px;
+    text-align: center;
+
+  }
+
+ 
+  .top-skill-list {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-weight: bold;
+
+  }
+
+  .skill-list {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+
+  .green-back {
+    background-color: rgb(114, 121, 90);
+    border-radius: 4px;
+    padding: 15px 15px;
+  }
+
+  .infos {
+    color: rgb(60, 60, 57);
+  }
+
+.mypic {
+    position: absolute;
+}
+
+.sobre {
+    position: absolute;
+    top: 170px;
+    left: 120px;
+    font-family: monospace;
+    padding: 20px;
+}
+
+.sobrerodrigo {
+    background-color: rgb(114, 121, 90);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
